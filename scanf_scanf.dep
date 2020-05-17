@@ -1,0 +1,17 @@
+Dependencies for Project 'scanf', Target 'scanf': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\startup.s)(0x519A7C74)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 530"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\UART.c)(0x5EC05DDC)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x537FAF9E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (../tm4c123gh6pm.h)(0x51D45492)
+F (.\main.c)(0x5EC05DDC)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (UART.h)(0x537FAF9E)
+I (../tm4c123gh6pm.h)(0x51D45492)
+I (ADCSWTrigger.h)(0x5263E4D6)
+F (..\ADC_UART\ADCSWTrigger.c)(0x5EC05DD9)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="530" -Drvmdk -DPART_LM4F120H5QR-o .\adcswtrigger.o --omf_browse .\adcswtrigger.crf --depend .\adcswtrigger.d)
+I (..\ADC_UART\../tm4c123gh6pm.h)(0x51D45492)
+F (.\ADCSWTrigger.h)(0x5263E4D6)()
